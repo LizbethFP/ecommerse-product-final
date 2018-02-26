@@ -5,23 +5,36 @@
 * **Unidad:** _Producto final_
 
 ***
+## Descripción
+Crear una app e-commerce con los principios de SPA (Single page aplication). Para ello, se utilizará:
 
-## Flujo de trabajo
+1. API de productos (Descripción, precios, etc), como la de Mercado Libre.
 
-1. Debes realizar un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
-   de este repositorio.
+2. API que permita la compra por parte del usuario, que puede ser Paypal, Stripe o cualquier otra que sirva para lo mismo.
 
-2. Luego deberás **clonar** tu fork en tu máquina. Recuerda que el comando a usar
-   es `git clone` y su estructura normalmente se ve así:
+3. Desplegar el repositorio a GH Pages.
 
-   ```bash
-   git clone https://github.com/<nombre-de-usuario>/freelancer.git
-   ```
 
-3. Cuando hayas terminado tu producto, envía un Pull Request a este repositorio
-   (puedes solicitar apoyo de tus profes para este paso).
+## Concepto de la app web y flujo
 
-> Nota: No olvides que es una buena práctica describir tu proyecto en este
-> archivo `README.md` y también desplegar tu web a Github Pages :smiley:.
+1. El nombre del e-commerce es **Buy Smart**, brinda la opción de ver y comprar smartphones y algunos pocos artículos smart relacionados mediante la presentación de una información enfocada en el nombre del modelo, su costo, disponibilidad y la posibilidad de su costo en cuotas y números de cuotas. 
 
-![Responsive-Desktop](public/assets/docs/jerarquía de carpetas.JPG)
+2. El flujo de la aplicación será de la siguiente forma:
+
+* Página principal que da la bienvenida y le solicita al usuario a iniciar sesión. Al dar clic en el botón de iniciar sesión, se redigirá a la siguiente vista.
+
+![Responsive-Desktop](public/assets/docs/index.JPG)
+
+* En la vista de iniciar sesión, se solicita ingresar el correo electrónico y en una siguiente vista, se solicita ingresar la contraseña.
+
+![Responsive-Desktop](public/assets/docs/login.JPG)
+
+![Responsive-Desktop](public/assets/docs/login-password.JPG)
+
+* Luego de iniciar sesión, se redirige a la vista principal donde se presentan los productos con su información respectiva. Además, se presenta un botón que le indica al usuario que puede dirigirse a hacer la compra. Esto lo llevará a poder hacer el pago con paypal.
+
+![Responsive-Desktop](public/assets/docs/home-flow.gif)
+
+## Herramientas
+
+Para este proyecto, se usó las herramientas tecnológicas de HTML5, Materialize, CSS3, page.js, handlebars, API de mercado libre y API de paypal.
