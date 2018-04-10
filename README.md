@@ -1,19 +1,10 @@
 # E-commerce
+La página web **Buy Smart** es un e-commerce especializado en la venta de smart phones. Para su desarrollo, se utilizó la API de Mercado Libre para la información e imágenes de los celulares, así como para el inicio de sesión de los usuarios, la API de Paypal para la pasarela de compra y el framework de Materialize para los estilos. Asimismo, se siguió los principios de SPA para los templates del header y cuerpo, así como el enrutamiento de las vistas: el inicio de sesión y la página principal.
 
-* **Track:** _Especialización Front-end_
-* **Curso:** _CONSTRUYE UNA SINGLE PAGE APP (SPA) MULTI-USUARIO CONSUMIENDO DATA REMOTA_
-* **Unidad:** _Producto final_
+![image](https://user-images.githubusercontent.com/32282183/38532789-05a81d28-3c3c-11e8-81f4-c602c9a868d0.png)
 
-***
-## Descripción
-Crear una app e-commerce con los principios de SPA (Single page aplication). Para ello, se utilizará:
-
-1. API de productos (Descripción, precios, etc), como la de Mercado Libre.
-
-2. API que permita la compra por parte del usuario, que puede ser Paypal, Stripe o cualquier otra que sirva para lo mismo.
-
-3. Desplegar el repositorio a GH Pages.
-
+## Desarrollado para 
+[Laboratoria](http://laboratoria.la)
 
 ## Concepto de la app web y flujo
 
