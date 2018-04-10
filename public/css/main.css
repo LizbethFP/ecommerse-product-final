@@ -1,6 +1,7 @@
 /* Clases reutilizables */
 
 /* Clases específicas */
+
 nav {
   margin-bottom: 2%;
 }
@@ -22,7 +23,11 @@ nav {
 }
 
 .bg-text {
-  font-size: 28px!important;
+  font-size: 28px !important;
+}
+
+button .btn-floating.halfway-fab .floating-cart {
+  right: -20px !important;
 }
 
 footer {
@@ -30,5 +35,11 @@ footer {
 }
 
 #goback {
-  color: white!important;
+  color: white !important;
+}
+
+@media (min-width: 768px) {
+  button .btn-floating.halfway-fab .floating-cart {
+    right: 0px !important;
+  }
 }
