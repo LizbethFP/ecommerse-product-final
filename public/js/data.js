@@ -9,9 +9,9 @@ fetch(api)
     // Todas las marcas de celulares y smartphones
     // console.log("Resultados ==>",data['results']);
     const phones = data['results'];
-    const phonesAvailableFiltersPrice = data['available_filters'][4]['name']; // Filtro PRECIO
-    const phonesAvailableFiltersPriceRanges = data['available_filters'][4]['values']; // Array Filtro PRECIO RANGOS
-    const phonesAvailableFiltersProduct = data['available_filters'][14]['values']; // Array Filtro Nombre de celular
+    // const phonesAvailableFiltersPrice = data['available_filters'][4]['name']; // Filtro PRECIO
+    // const phonesAvailableFiltersPriceRanges = data['available_filters'][4]['values']; // Array Filtro PRECIO RANGOS
+    // const phonesAvailableFiltersProduct = data['available_filters'][14]['values']; // Array Filtro Nombre de celular
     // console.log(phonesAvailableFiltersPrice);
     // console.log(phonesAvailableFiltersPriceRanges);
     // console.log(phonesAvailableFiltersProduct);
